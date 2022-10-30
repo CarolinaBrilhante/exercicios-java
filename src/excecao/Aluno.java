@@ -5,8 +5,8 @@ import java.util.Objects;
 public class Aluno {
 
 	public final String nome;
-	final double nota;
-	final boolean bomComportamento;
+	public final double nota;
+	public final boolean bomComportamento;
 	
 	public Aluno (String nome, double nota) {
 		this(nome, nota, true);
