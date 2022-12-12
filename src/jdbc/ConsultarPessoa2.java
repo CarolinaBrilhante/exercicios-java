@@ -38,5 +38,6 @@ public class ConsultarPessoa2 {
 		
 	    stmt.close();
 		entrada.close();
+		conexao.close();
 	}
 }
